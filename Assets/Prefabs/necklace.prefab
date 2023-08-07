@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3616933192805253958}
   m_Layer: 0
   m_Name: Necklace Diamond.009
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 6657900961190635794}
   m_Layer: 0
   m_Name: Necklace Diamond.018
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 1467264807770930289}
   m_Layer: 0
   m_Name: Necklace Diamond.014
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 8601279911141982530}
   m_Layer: 0
   m_Name: Necklace Diamond
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 3655536073696893366}
   m_Layer: 0
   m_Name: Necklace Diamond.003
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 2827672439027726497}
   m_Layer: 0
   m_Name: Necklace Diamond.001
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 7627039768660829372}
   m_Layer: 0
   m_Name: Necklace Diamond.016
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 5036565925276069716}
   m_Layer: 0
   m_Name: Necklace Diamond.021
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 3591301346588785751}
   m_Layer: 0
   m_Name: Necklace Diamond.007
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 9102647997082852695}
   m_Layer: 0
   m_Name: Necklace Diamond.006
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 169768485776158121}
   m_Layer: 0
   m_Name: Necklace Diamond.020
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 8089259169648493732}
   m_Layer: 0
   m_Name: Necklace Diamond.010
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1348,7 +1348,7 @@ GameObject:
   - component: {fileID: 1952425462504171659}
   m_Layer: 0
   m_Name: Necklace Diamond.011
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 2105814800759411155}
   m_Layer: 0
   m_Name: Necklace Diamond.002
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1575,7 +1575,7 @@ GameObject:
   - component: {fileID: 4969309183468390714}
   m_Layer: 0
   m_Name: Necklace Diamond.013
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1672,7 +1672,7 @@ GameObject:
   - component: {fileID: 8704315709086390236}
   m_Layer: 0
   m_Name: Necklace Diamond.012
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1769,7 +1769,7 @@ GameObject:
   - component: {fileID: 8262670405056887827}
   m_Layer: 0
   m_Name: Necklace Diamond.008
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 7699724954469306101}
   m_Layer: 0
   m_Name: Necklace Diamond.015
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1963,7 +1963,7 @@ GameObject:
   - component: {fileID: 4607593000226486598}
   m_Layer: 0
   m_Name: Necklace Diamond.017
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2060,7 +2060,7 @@ GameObject:
   - component: {fileID: 2837767735669261134}
   m_Layer: 0
   m_Name: Necklace Diamond.004
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2157,7 +2157,7 @@ GameObject:
   - component: {fileID: 424801369735447163}
   m_Layer: 0
   m_Name: Necklace Diamond.005
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2254,7 +2254,7 @@ GameObject:
   - component: {fileID: 1842425228972726470}
   m_Layer: 0
   m_Name: Necklace Diamond.019
-  m_TagString: Untagged
+  m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
