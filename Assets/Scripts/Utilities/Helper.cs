@@ -1,3 +1,4 @@
+#nullable enable
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,7 +15,6 @@ using Object = UnityEngine.Object;
 /// </summary>
 public static class Helpers
 {
-
     #region Unity
     /// <summary>
     /// Destroy all child objects of this transform (Unintentionally evil sounding).
@@ -76,7 +76,7 @@ public static class Helpers
     /// var rect_transform = _ui_element.GetComponent<RectTransform>();
     /// rect_transform.anchoredPosition = _ui_canvas.WorldToCanvas(_world_point);
     /// </summary>
-    public static Vector2 WorldToCanvas(this Canvas canvas, Vector3 worldPosition, Camera camera = null)
+    public static Vector2 WorldToCanvas(this Canvas canvas, Vector3 worldPosition, Camera camera = null!)
     {
         if (camera == null)
         {

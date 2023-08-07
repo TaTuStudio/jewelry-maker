@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : StaticInstance<GameManager>
 {
     public GameState State;
     public static event Action<GameState> OnGameStateChanged;

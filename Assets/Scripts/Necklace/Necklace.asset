@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751a3d46a4059c24d81f38bf1342c1d6, type: 3}
+  m_Name: Necklace
+  m_EditorClassIdentifier: 
+  medMetalMaterial: {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777, type: 2}
+  necklaceMetalMaterial: {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777,
+    type: 2}
+  stoneMaterial: {fileID: 2100000, guid: c1f534f95764d40cea4e55cadcff3cc0, type: 2}
+  metalMaterials:
+  - {fileID: 2100000, guid: 7ba399025d43948ed9152486ab880c7c, type: 2}
+  - {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777, type: 2}
+  - {fileID: 2100000, guid: 91d2546a3583344a1a70a0767c15285f, type: 2}
+  - {fileID: 2100000, guid: 32d5687d6dfdac74a9fd4cab2e8dc0f3, type: 2}
+  stoneMaterials:
+  - {fileID: 2100000, guid: 129ba13326960914cba22f193c2e926a, type: 2}
+  - {fileID: 2100000, guid: 3ab8e0d33d57c40c19568ab2e973d25a, type: 2}
+  - {fileID: 2100000, guid: c1f534f95764d40cea4e55cadcff3cc0, type: 2}
+  - {fileID: 2100000, guid: 3c149e277d6254c4e9d5b70e137a8dbc, type: 2}
+  - {fileID: 2100000, guid: 5c5ab6ddf5e374d78acaf3591e26823b, type: 2}
