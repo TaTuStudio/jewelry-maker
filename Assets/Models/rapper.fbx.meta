@@ -3,7 +3,62 @@ guid: 91ed2c579ad66534990a0a44c8a4e262
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Billie_Eye_Brows.001
+    second: {fileID: 2100000, guid: 9699017faf69044c589a3c834a2a078a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Body3.001
+    second: {fileID: 2100000, guid: f08d6ed9389bd469eb1e02e05e2ba96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Eyes2.001
+    second: {fileID: 2100000, guid: 18349cf55dfe34be2bfe1a54b1aa642a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Hair3
+    second: {fileID: 2100000, guid: 94736b83116b64cd59573a74c0d10239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Hair3.001
+    second: {fileID: 2100000, guid: ad441d0fc3880426fa70c52ab380c4d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Mouth_Gums2.001
+    second: {fileID: 2100000, guid: f12c71ee2dbe0401199d2eba94f4d98c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Mouth_Teeth2.001
+    second: {fileID: 2100000, guid: 66a8ec5a198084102907cd79c25a19d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Pant3
+    second: {fileID: 2100000, guid: caad153f5e43e4a9bb282e615d6839d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Shoe2
+    second: {fileID: 2100000, guid: a0251b3bd69824828b3c8f439e7e1eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_T_Shirt_Color_7
+    second: {fileID: 2100000, guid: cd72e19cf0e4c4ae3aae653446269954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Tongue1.001
+    second: {fileID: 2100000, guid: fdf5b73db34b54d81a6406e767abd33e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

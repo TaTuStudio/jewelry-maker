@@ -3,7 +3,32 @@ guid: 3128124b28f61f643bf1e3e932dff803
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diamond
+    second: {fileID: 2100000, guid: 194734208462a41f183173e44f7e64e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: f54169904943e492a97cd2fba59274fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_LIght
+    second: {fileID: 2100000, guid: f9f60dbb8bf5e4cd6af86e1a1958e884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Gold_Chain3.001
+    second: {fileID: 2100000, guid: 1a849cee01d2846d6a85f6be637b54e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: a4ccde14d14784fff9be1f5691e49e1f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
