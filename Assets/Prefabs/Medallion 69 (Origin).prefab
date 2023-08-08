@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1974060593684400421}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.055
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 3915858735407405587}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.043
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 3065631954770974688}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.027
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 3713698383179454505}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.035
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 4607322317903747465}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.061
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 3619601978403703578}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.087
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 5305352876026318033}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.052
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 4190181755210105727}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.044
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -798,7 +798,7 @@ GameObject:
   - component: {fileID: 8413865791670173751}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.082
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 4662865698411492055}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.051
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 6961008719495183151}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.031
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1092,7 +1092,7 @@ GameObject:
   - component: {fileID: 5182913284537035223}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.018
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 3179284760829109404}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.023
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1288,7 +1288,7 @@ GameObject:
   - component: {fileID: 9035747061879493126}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.049
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 6279700481608293670}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.071
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1484,7 +1484,7 @@ GameObject:
   - component: {fileID: 3461397915997897488}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.089
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1582,7 +1582,7 @@ GameObject:
   - component: {fileID: 2471480825217759861}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.073
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 5696811363210203829}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.090
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1778,7 +1778,7 @@ GameObject:
   - component: {fileID: 7678631406186802634}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.076
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1876,7 +1876,7 @@ GameObject:
   - component: {fileID: 5211644137689355422}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.083
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,7 +1974,7 @@ GameObject:
   - component: {fileID: 9082683581307995251}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.013
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2072,7 +2072,7 @@ GameObject:
   - component: {fileID: 5165750361328431233}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.070
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 8037465346007007567}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.005
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2268,7 +2268,7 @@ GameObject:
   - component: {fileID: 4831922812514500422}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.054
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2366,7 +2366,7 @@ GameObject:
   - component: {fileID: 4217439644327519205}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.078
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 6072774175427036040}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.059
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2562,7 +2562,7 @@ GameObject:
   - component: {fileID: 2284084938226406751}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.017
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2660,7 +2660,7 @@ GameObject:
   - component: {fileID: 645321158851976479}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.021
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2758,7 +2758,7 @@ GameObject:
   - component: {fileID: 1720581185763778351}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.014
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2856,7 +2856,7 @@ GameObject:
   - component: {fileID: 70258105919137091}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.047
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2954,7 +2954,7 @@ GameObject:
   - component: {fileID: 4634305819642701190}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.069
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3052,7 +3052,7 @@ GameObject:
   - component: {fileID: 7976741223595365641}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.088
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3150,7 +3150,7 @@ GameObject:
   - component: {fileID: 769373060510007699}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.026
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3248,7 +3248,7 @@ GameObject:
   - component: {fileID: 1463465836157711616}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.065
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3346,7 +3346,7 @@ GameObject:
   - component: {fileID: 2172974234882057304}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.045
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3444,7 +3444,7 @@ GameObject:
   - component: {fileID: 1465847072434946523}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.036
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3542,7 +3542,7 @@ GameObject:
   - component: {fileID: 392936315035235263}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.080
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3640,7 +3640,7 @@ GameObject:
   - component: {fileID: 95389623319011918}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.041
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3738,7 +3738,7 @@ GameObject:
   - component: {fileID: 7130551100857764043}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.075
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3836,7 +3836,7 @@ GameObject:
   - component: {fileID: 674707168637072754}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.032
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3934,7 +3934,7 @@ GameObject:
   - component: {fileID: 2404824344504502113}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.022
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4032,7 +4032,7 @@ GameObject:
   - component: {fileID: 6673494906992115355}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.028
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4130,7 +4130,7 @@ GameObject:
   - component: {fileID: 2391338147000266191}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.067
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4228,7 +4228,7 @@ GameObject:
   - component: {fileID: 1376045963318074857}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.056
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4326,7 +4326,7 @@ GameObject:
   - component: {fileID: 5916777419137870028}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.072
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4424,7 +4424,7 @@ GameObject:
   - component: {fileID: 7917291115853094622}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.029
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4522,7 +4522,7 @@ GameObject:
   - component: {fileID: 8763056542173239457}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.050
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4620,7 +4620,7 @@ GameObject:
   - component: {fileID: 8521887471459476644}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.042
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4718,7 +4718,7 @@ GameObject:
   - component: {fileID: 587759075832158878}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.025
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4816,7 +4816,7 @@ GameObject:
   - component: {fileID: 5920121798187459056}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.091
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4914,7 +4914,7 @@ GameObject:
   - component: {fileID: 4369472461378014981}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.068
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5012,7 +5012,7 @@ GameObject:
   - component: {fileID: 5425775907872966116}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.030
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5110,7 +5110,7 @@ GameObject:
   - component: {fileID: 1125101403040058614}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.020
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5208,7 +5208,7 @@ GameObject:
   - component: {fileID: 2675818174645883599}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.063
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5306,7 +5306,7 @@ GameObject:
   - component: {fileID: 8024294469406578058}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.015
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5404,7 +5404,7 @@ GameObject:
   - component: {fileID: 3206299859394068623}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.058
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5502,7 +5502,7 @@ GameObject:
   - component: {fileID: 100067083828999562}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.053
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5600,7 +5600,7 @@ GameObject:
   - component: {fileID: 6951625289179658643}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.079
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5698,7 +5698,7 @@ GameObject:
   - component: {fileID: 7328450723175640258}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.024
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5796,7 +5796,7 @@ GameObject:
   - component: {fileID: 25333010486102404}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.019
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5894,7 +5894,7 @@ GameObject:
   - component: {fileID: 883847455392042729}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.081
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5992,7 +5992,7 @@ GameObject:
   - component: {fileID: 3124459742038982386}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.066
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6090,7 +6090,7 @@ GameObject:
   - component: {fileID: 344197893693424044}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.064
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6188,7 +6188,7 @@ GameObject:
   - component: {fileID: 1958794256816009186}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.062
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6286,7 +6286,7 @@ GameObject:
   - component: {fileID: 5525709766993363934}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.048
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6384,7 +6384,7 @@ GameObject:
   - component: {fileID: 7482215107685333441}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.057
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6482,7 +6482,7 @@ GameObject:
   - component: {fileID: 5217468520556307068}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.086
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6580,7 +6580,7 @@ GameObject:
   - component: {fileID: 2402563334411698508}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.037
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6678,7 +6678,7 @@ GameObject:
   - component: {fileID: 7389541568237858162}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.074
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6776,7 +6776,7 @@ GameObject:
   - component: {fileID: 7678424008287182256}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.040
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6874,7 +6874,7 @@ GameObject:
   - component: {fileID: 4198595972861077615}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.039
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6972,7 +6972,7 @@ GameObject:
   - component: {fileID: 6003449122626731574}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.060
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7070,7 +7070,7 @@ GameObject:
   - component: {fileID: 7697590482453054415}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.034
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7362,7 +7362,7 @@ GameObject:
   - component: {fileID: 4374420523347325460}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.016
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7460,7 +7460,7 @@ GameObject:
   - component: {fileID: 4063357107162495436}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.038
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7558,7 +7558,7 @@ GameObject:
   - component: {fileID: 7595594165752924135}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.033
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7656,7 +7656,7 @@ GameObject:
   - component: {fileID: 5670284924328579146}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.046
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7754,7 +7754,7 @@ GameObject:
   - component: {fileID: 7687610733265772341}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.077
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7852,7 +7852,7 @@ GameObject:
   - component: {fileID: 5105663901040564432}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.084
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8036,7 +8036,7 @@ GameObject:
   - component: {fileID: 1142778822720065097}
   m_Layer: 0
   m_Name: Medallion 69 Diamond.085
-  m_TagString: stone
+  m_TagString: stone2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -13,12 +13,39 @@ public class Necklace : ScriptableObject
     public Material metalNoneMaterial;
     public Material[] metalMaterials;
     public Material[] stoneMaterials;
+    public Mesh stoneMesh;
+    public Mesh[] stoneMeshes;
 
-    public void SetStoneMat0() => stoneMaterial = stoneMaterials[0];
-    public void SetStoneMat1() => stoneMaterial = stoneMaterials[1];
-    public void SetStoneMat2() => stoneMaterial = stoneMaterials[2];
-    public void SetStoneMat3() => stoneMaterial = stoneMaterials[3];
-    public void SetStoneMat4() => stoneMaterial = stoneMaterials[4];
+    public void SetStoneMat0()
+    {
+        stoneMaterial = stoneMaterials[0];
+        stoneMesh = stoneMeshes[0];
+    }
+
+    public void SetStoneMat1()
+    {
+        stoneMaterial = stoneMaterials[1];
+        stoneMesh = stoneMeshes[1];
+    }
+
+    public void SetStoneMat2()
+    {
+        stoneMaterial = stoneMaterials[2];
+        stoneMesh = stoneMeshes[2];
+    }
+
+    public void SetStoneMat3()
+    {
+        stoneMaterial = stoneMaterials[3];
+        stoneMesh = stoneMeshes[3];
+    }
+
+    public void SetStoneMat4()
+    {
+        stoneMaterial = stoneMaterials[4];
+        stoneMesh = stoneMeshes[4];
+    }
+
     public void SetMetalMat0() => necklaceMetalMaterial = metalMaterials[0];
     public void SetMetalMat1() => necklaceMetalMaterial = metalMaterials[1];
     public void SetMetalMat2() => necklaceMetalMaterial = metalMaterials[2];

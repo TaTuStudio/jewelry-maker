@@ -18,6 +18,7 @@ public class CraftSystem : MonoBehaviour
     [SerializeField] private GameObject medal;
     [SerializeField] private Renderer medalMat;
     [SerializeField] private Necklace necklaceSo;
+    [SerializeField] private GameObject drill;
     [SerializeField] private RectTransform selectMaterial;
     [SerializeField] private RectTransform selectMedMaterial;
     [SerializeField] private RectTransform selectStone;
@@ -62,6 +63,8 @@ public class CraftSystem : MonoBehaviour
                     if (target.CompareTag("stone"))
                     {
                         target.gameObject.GetComponent<Renderer>().material = necklaceSo.stoneMaterial;
+                        //target.gameObject.GetComponent<MeshFilter>().mesh = necklaceSo.stoneMesh;
+
                     }
                 }
                 break;
@@ -72,13 +75,9 @@ public class CraftSystem : MonoBehaviour
                 if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out targetHit))
                 {
                     target = targetHit.transform;
-                    if (target.CompareTag("stone3"))
-                    {
-                        target.gameObject.GetComponent<Renderer>().material = necklaceSo.stoneMaterial;
-                    }
                     if (target.CompareTag("stone2"))
                     {
-                        target.gameObject.GetComponent<Renderer>().materials[1] = necklaceSo.stoneMaterial;
+                        target.gameObject.GetComponent<Renderer>().material = necklaceSo.stoneMaterial;
                     }
                 }
                 break;
@@ -91,7 +90,6 @@ public class CraftSystem : MonoBehaviour
                     target = targetHit.transform;
                     if (target.CompareTag("sparkle"))
                     {
-                        print("sparkle");
                         sparkle++;
                         if (sparkle == 5)
                         {
@@ -159,6 +157,7 @@ public class CraftSystem : MonoBehaviour
         switch (step)
         {
             case 1:
+                drill.SetActive(false);
                 selectMaterial.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 selectStone.DOAnchorPos(Vector2.zero, 0.5f).SetEase(Ease.OutBack);
                 break;
@@ -177,6 +176,7 @@ public class CraftSystem : MonoBehaviour
                 selectStone.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 necklace.SetActive(true);
                 ChangeCamPos(1, true);
+                drill.SetActive(true);
                 break;
         }
     }
