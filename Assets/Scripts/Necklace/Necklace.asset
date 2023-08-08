@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751a3d46a4059c24d81f38bf1342c1d6, type: 3}
   m_Name: Necklace
   m_EditorClassIdentifier: 
-  medMetalMaterial: {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777, type: 2}
-  necklaceMetalMaterial: {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777,
+  medMetalMaterial: {fileID: 2100000, guid: 91d2546a3583344a1a70a0767c15285f, type: 2}
+  necklaceMetalMaterial: {fileID: 2100000, guid: 91d2546a3583344a1a70a0767c15285f,
     type: 2}
-  stoneMaterial: {fileID: 2100000, guid: c1f534f95764d40cea4e55cadcff3cc0, type: 2}
+  stoneMaterial: {fileID: 2100000, guid: 3ab8e0d33d57c40c19568ab2e973d25a, type: 2}
+  stoneNoneMaterial: {fileID: 2100000, guid: 6321d7bf4c897b245b09e9012f4ec401, type: 2}
+  metalNoneMaterial: {fileID: 2100000, guid: 553529204e976c8479074208f04c343e, type: 2}
   metalMaterials:
   - {fileID: 2100000, guid: 7ba399025d43948ed9152486ab880c7c, type: 2}
   - {fileID: 2100000, guid: d1e093465ba8d4aa597027f3b54d9777, type: 2}

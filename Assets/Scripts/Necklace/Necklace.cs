@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static GameManager;
 
 [CreateAssetMenu]
 public class Necklace : ScriptableObject
@@ -8,12 +9,10 @@ public class Necklace : ScriptableObject
     public Material medMetalMaterial;
     public Material necklaceMetalMaterial;
     public Material stoneMaterial;
-
-    [SerializeField] private Material[] metalMaterials;
-    [SerializeField] private Material[] stoneMaterials;
-
-    public Material[] MetalMaterials => metalMaterials;
-    public Material[] StoneMaterials => stoneMaterials;
+    public Material stoneNoneMaterial;
+    public Material metalNoneMaterial;
+    public Material[] metalMaterials;
+    public Material[] stoneMaterials;
 
     public void SetStoneMat0() => stoneMaterial = stoneMaterials[0];
     public void SetStoneMat1() => stoneMaterial = stoneMaterials[1];

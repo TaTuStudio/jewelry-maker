@@ -13,24 +13,16 @@ public class StepProgressUI : MonoBehaviour
     [SerializeField] private Sprite idleStepImage;
     [SerializeField] private RectTransform uiRect;
     
-    private void OnEnable()
-    {
-        CraftSystem.StepEnter += StartStep;
-    }
-
-    private void OnDisable()
-    {
-        CraftSystem.StepEnter -= StartStep;
-    }
     private void Awake()
     {
         OnGameStateChanged += GameManagerOnGameStateChanged;
-  
+        CraftSystem.StepEnter += StartStep;
     }
 
     private void OnDestroy()
     {
         OnGameStateChanged -= GameManagerOnGameStateChanged;
+        CraftSystem.StepEnter -= StartStep;
     }
     private void GameManagerOnGameStateChanged(GameState state)
     {
@@ -59,11 +51,7 @@ public class StepProgressUI : MonoBehaviour
         {
             listStepImage[step - 1].sprite = finishStepImage;
         }
-        else if (step == 4)
-        {
-            listStepImage[step].sprite = finishStepImage;
-        }
-        if (step < 4)
+        if (step <= 4)
         {
             listStepImage[step].sprite = startStepImage;
         }
