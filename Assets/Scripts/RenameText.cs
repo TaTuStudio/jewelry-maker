@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -9,8 +10,14 @@ public class RenameText : MonoBehaviour
     private TextMeshProUGUI txt;
     private Image img;
     private GameObject btn;
+    [SerializeField] private Sprite onSelectSprite;
+    [SerializeField] private Sprite onDeSelectSprite;
+    private Button button;
+    public delegate void OnSelectClic();
+    public static event OnSelectClic ClickEvent;
+    
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //print(transform.Find("Image"));
         //print(transform.Find("Text (TMP)"));
@@ -20,12 +27,28 @@ public class RenameText : MonoBehaviour
 
         txt.text = img.sprite.name;
         btn = GameObject.FindGameObjectWithTag("next");
-        gameObject.GetComponent<Button>().onClick.AddListener(()=> btn.SetActive(true));
+        button = gameObject.GetComponent<Button>();
+        button.onClick.AddListener(() =>
+        {
+            btn.SetActive(true);
+            ClickEvent?.Invoke();
+            button.image.sprite = onSelectSprite;
+        });
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        ClickEvent += Clicked;
     }
+
+    private void OnDisable()
+    {
+        ClickEvent -= Clicked;
+    }
+
+    private void Clicked()
+    {
+        button.image.sprite = onDeSelectSprite;
+    }
+    
 }

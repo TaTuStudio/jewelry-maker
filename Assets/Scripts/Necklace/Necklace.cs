@@ -15,6 +15,7 @@ public class Necklace : ScriptableObject
     public Material[] stoneMaterials;
     public Mesh stoneMesh;
     public Mesh[] stoneMeshes;
+    public Sprite selectUi;
 
     public void SetStoneMat0()
     {

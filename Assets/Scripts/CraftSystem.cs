@@ -173,7 +173,6 @@ public class CraftSystem : MonoBehaviour
 
     private void NextStep()
     {
-        nextStep.gameObject.SetActive(false);
         if (step > 4)
         {
             drill.SetActive(false);
@@ -182,17 +181,18 @@ public class CraftSystem : MonoBehaviour
             GameManager.Instance.ChangeState(GameState.StartGame);
             return;
         }
-        
         step++;
         StepEnter?.Invoke(step);
         switch (step)
         {
             case 1:
+                nextStep.gameObject.SetActive(false);
                 drill.SetActive(false);
                 selectMaterial.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 selectStone.DOAnchorPos(Vector2.zero, 0.5f).SetEase(Ease.OutBack);
                 break;
             case 2:
+                nextStep.gameObject.SetActive(false);
                 selectStone.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 selectMedMaterial.DOAnchorPos(Vector2.zero, 0.5f).SetEase(Ease.OutBack);
                 medal.SetActive(true);
@@ -200,10 +200,12 @@ public class CraftSystem : MonoBehaviour
                 ChangeCamPos(2, true);
                 break;
             case 3:
+                nextStep.gameObject.SetActive(false);
                 selectMedMaterial.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 selectStone.DOAnchorPos(Vector2.zero, 0.5f).SetEase(Ease.OutBack);
                 break;
             case 4:
+                nextStep.gameObject.SetActive(false);
                 selectStone.DOAnchorPosY(-1100, 0.5f).SetEase(Ease.InBack);
                 necklace.SetActive(true);
                 ChangeCamPos(1, true);
