@@ -3,7 +3,87 @@ guid: 91ed2c579ad66534990a0a44c8a4e262
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Billie_Eye_Brows.001
+    second: {fileID: 2100000, guid: 9699017faf69044c589a3c834a2a078a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diamond
+    second: {fileID: 2100000, guid: d756be0015aec6b4eb55e23ac1874540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 75fa8479b9d52dd4a9bdd0c912da931a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_LIght
+    second: {fileID: 2100000, guid: 7e7b334d56a9dcf439afe94ea03346db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Body3.001
+    second: {fileID: 2100000, guid: f08d6ed9389bd469eb1e02e05e2ba96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Eyes2.001
+    second: {fileID: 2100000, guid: 18349cf55dfe34be2bfe1a54b1aa642a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Gold_Chain3.001
+    second: {fileID: 2100000, guid: e285e49800d6932409cd9592a67d461a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Hair3
+    second: {fileID: 2100000, guid: 94736b83116b64cd59573a74c0d10239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Hair3.001
+    second: {fileID: 2100000, guid: ad441d0fc3880426fa70c52ab380c4d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Pant3
+    second: {fileID: 2100000, guid: caad153f5e43e4a9bb282e615d6839d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Shoe2
+    second: {fileID: 2100000, guid: a0251b3bd69824828b3c8f439e7e1eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_T_Shirt_Color_7
+    second: {fileID: 2100000, guid: cd72e19cf0e4c4ae3aae653446269954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kanye_Tongue1.001
+    second: {fileID: 2100000, guid: fdf5b73db34b54d81a6406e767abd33e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: 7ae52473db3d6954bb5365061a687b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gums
+    second: {fileID: 2100000, guid: 26d53f4996517124580c99be98a415e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth
+    second: {fileID: 2100000, guid: ff67f1d7544e1c847b7bc8ee21a25055, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

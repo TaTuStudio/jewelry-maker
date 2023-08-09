@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DG.Tweening;
+using Lofelt.NiceVibrations;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -24,11 +25,14 @@ public class CraftSystem : MonoBehaviour
     [SerializeField] private RectTransform selectStone;
     [SerializeField] private Button nextStep;
     [SerializeField] private NecklaceManager necklaceManager;
-    
+    [SerializeField] private HapticClip[] clips;
+    [SerializeField] private SoundEffectSO[] sounds;
+
     private RaycastHit targetHit;
     private Transform target;
     private int step;
     private int sparkle;
+    private Transform lastTarget;
     private void Awake()
     {
         nextStep.onClick.AddListener(NextStep);
@@ -44,6 +48,7 @@ public class CraftSystem : MonoBehaviour
     {
         if (state == GameState.CraftState)
         {
+            nextStep.gameObject.SetActive(false);
             sparkle = 0;
             step = 0;
             StepEnter?.Invoke(step);
@@ -60,13 +65,21 @@ public class CraftSystem : MonoBehaviour
                 if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out targetHit))
                 {
                     target = targetHit.transform;
+                    if (lastTarget == target)
+                    {
+                        return;
+                    }
+
                     if (target.CompareTag("stone"))
                     {
                         target.gameObject.GetComponent<Renderer>().material = necklaceSo.stoneMaterial;
-                        //target.gameObject.GetComponent<MeshFilter>().mesh = necklaceSo.stoneMesh;
-
+                        target.gameObject.GetComponent<MeshFilter>().mesh = necklaceSo.stoneMesh;
+                        HapticController.Play(clips[0]);
+                        sounds[0].Play();
+                        lastTarget = target;
                     }
                 }
+            
                 break;
             }
             case 3:
@@ -75,9 +88,17 @@ public class CraftSystem : MonoBehaviour
                 if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out targetHit))
                 {
                     target = targetHit.transform;
+                    target = targetHit.transform;
+                    if (lastTarget == target)
+                    {
+                        return;
+                    }
                     if (target.CompareTag("stone2"))
                     {
                         target.gameObject.GetComponent<Renderer>().material = necklaceSo.stoneMaterial;
+                        HapticController.Play(clips[1]);
+                        sounds[1].Play();
+                        lastTarget = target;
                     }
                 }
                 break;
@@ -88,16 +109,24 @@ public class CraftSystem : MonoBehaviour
                 if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out targetHit))
                 {
                     target = targetHit.transform;
+                    if (lastTarget == target)
+                    {
+                        return;
+                    }
                     if (target.CompareTag("sparkle"))
                     {
+                        HapticController.Play(clips[2]);
+                        sounds[2].Play();
                         sparkle++;
                         if (sparkle == 5)
                         {
                             necklaceSo.necklaceMetalMaterial.SetFloat("_Smoothness", 0.5f);
                             SetNecklaceMat();
+                            nextStep.gameObject.SetActive(true);
                         }
                         target.gameObject.transform.GetChild(0).gameObject.SetActive(true);
                         target.gameObject.GetComponent<SphereCollider>().enabled = false;
+                        lastTarget = target;
                     }
                     if (target.CompareTag("sparkle2"))
                     {
@@ -105,6 +134,7 @@ public class CraftSystem : MonoBehaviour
                         SetMedMat();
                         target.gameObject.transform.GetChild(0).gameObject.SetActive(true);
                         target.gameObject.GetComponent<SphereCollider>().enabled = false;
+                        lastTarget = target;
                     }
                 }
                 break;
@@ -119,12 +149,11 @@ public class CraftSystem : MonoBehaviour
         selectMaterial.DOAnchorPos(Vector2.zero, 0.5f).SetEase(Ease.InBack);
     }
 
-    private void ChangeCamPos(int pos, bool animation = false)
+    private void ChangeCamPos(int pos, bool anim = false)
     {
-        if (!animation)
+        if (!anim)
         {
-            camera.transform.position = cameraPos[pos].position;
-            camera.transform.rotation = cameraPos[pos].rotation;
+            camera.transform.SetPositionAndRotation(cameraPos[pos].position, cameraPos[pos].rotation);
         }
         else
         {
@@ -144,8 +173,10 @@ public class CraftSystem : MonoBehaviour
 
     private void NextStep()
     {
+        nextStep.gameObject.SetActive(false);
         if (step > 4)
         {
+            drill.SetActive(false);
             GameManager.Instance.ChangeState(GameState.EndGame);
             ChangeCamPos(0);
             GameManager.Instance.ChangeState(GameState.StartGame);

@@ -8,6 +8,7 @@ public class NecklaceManager : MonoBehaviour
     [SerializeField] private Renderer[] stoneMats;
     [SerializeField] private Renderer[] metalMats;
     [SerializeField] private Necklace necklaceSo;
+    [SerializeField] private MeshFilter[] stoneMeshes;
 
     private void Awake()
     {
@@ -34,7 +35,12 @@ public class NecklaceManager : MonoBehaviour
 
             foreach (var mat in necklaceSo.metalMaterials)
             {
-                mat.SetFloat("_Smoothness", 0.1f);
+                mat.SetFloat("_Smoothness", 0.3f);
+            }
+
+            foreach (var mesh in stoneMeshes)
+            {
+                mesh.mesh = necklaceSo.stoneMeshes[0];
             }
         }
     }

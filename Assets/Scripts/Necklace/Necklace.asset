@@ -29,10 +29,11 @@ MonoBehaviour:
   - {fileID: 2100000, guid: c1f534f95764d40cea4e55cadcff3cc0, type: 2}
   - {fileID: 2100000, guid: 3c149e277d6254c4e9d5b70e137a8dbc, type: 2}
   - {fileID: 2100000, guid: 5c5ab6ddf5e374d78acaf3591e26823b, type: 2}
-  stoneMesh: {fileID: 0}
+  stoneMesh: {fileID: -591988922984149819, guid: 69213dacb5405854ba23659b36bc46ce,
+    type: 3}
   stoneMeshes:
-  - {fileID: -8535978174033304409, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
+  - {fileID: -3365773867992180262, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
+  - {fileID: -591988922984149819, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
   - {fileID: -3217646611152415606, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
-  - {fileID: -5831974514599945703, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
-  - {fileID: 1403369859872857329, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
-  - {fileID: -1563032634559925058, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
+  - {fileID: -8159816889557737838, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}
+  - {fileID: -8940995843292165504, guid: 69213dacb5405854ba23659b36bc46ce, type: 3}

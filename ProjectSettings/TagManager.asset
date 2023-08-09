@@ -6,9 +6,9 @@ TagManager:
   tags:
   - stone
   - stone2
-  - stone3
   - sparkle
   - sparkle2
+  - next
   layers:
   - Default
   - TransparentFX

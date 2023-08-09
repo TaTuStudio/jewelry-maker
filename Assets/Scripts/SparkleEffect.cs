@@ -26,7 +26,7 @@ public class SparkleEffect : MonoBehaviour
     private void StartStep(int step)
     {
         sparkleCollider.enabled = step == 4;
-        if (step == 1)
+        if (step == 0)
         {
             sparkleParticle.SetActive(false);
         }
